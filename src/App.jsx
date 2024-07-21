@@ -32,7 +32,7 @@ const App = () => {
         </div>
       </div>
       <div className="car-section">
-        <h2>Recommended Used Cars For You</h2>
+        <h1>Recommended Used Cars For You</h1>
         <div className="car-list">
           {usedCarData.map(car => (
             <CarCard
