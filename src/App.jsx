@@ -18,7 +18,7 @@ const App = () => {
         
       </header>
       <div className="car-section">
-      <h3>The Most Searched Cars </h3>
+      <h3>The Most Searched Cars Here</h3>
         <div className="car-list">
           {newCarData.map(car => (
             <CarCard
