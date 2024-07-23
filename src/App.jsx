@@ -34,6 +34,7 @@ const App = () => {
       <div className="car-section">
         <h1>Welcome</h1>
         <h2>Recommended Used Cars For You</h2>
+        <h3>test code</h3>
         <div className="car-list">
           {usedCarData.map(car => (
             <CarCard
