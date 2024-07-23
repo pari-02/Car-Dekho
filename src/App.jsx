@@ -10,7 +10,7 @@ import CarCarousel from './components/carousel/CarCarousel';
 const App = () => {
   return (
     <div className="App">
-   
+   <h1>car dekho</h1>
 
     <CarCarousel/>
     
