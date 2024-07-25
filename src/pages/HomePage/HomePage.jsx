@@ -5,7 +5,7 @@ import CarCarousel from '../../components/carousel/CarCarousel'
 import CarCard from '../../components/CarList/CarCard'
 import PopularBrands from '../../components/Brands/PopularBrands'
 import CarRecommender from '../../components/CarRecommender/CarRecommender'
-
+import './HomePage.css'
 function HomePage() {
   return (
     <div>
