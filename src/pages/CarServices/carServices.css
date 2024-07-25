@@ -1,0 +1,163 @@
+.mainDiv {
+    margin: 50px;
+    /* background-color: rgb(250, 250, 250); */
+}
+
+.challanImg {
+    border-radius: 16px;
+    width: 659px;
+}
+
+.brd {
+    border-radius: 16px;
+}
+
+.challanDiv {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    background-color: rgb(250, 250, 250);
+}
+
+.fontSize {
+    font-size: 13px;
+}
+
+.fontWeight {
+    font-weight: 600px;
+}
+
+.challanDiv ul {
+    margin: 0;
+    padding: 0;
+}
+
+.challanDiv ul li {
+    column-gap: 16px;
+}
+
+.challanDiv ul li .iconHolder {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: linear-gradient(113deg, #fceeea 0%, #e5f0fa 100%);
+}
+
+.mainDiv .challanDiv .verticalLine {
+    border-left-color: rgba(36, 39, 44, 0.15);
+    border-left-style: dashed;
+    border-left-width: 0.8px;
+    box-sizing: border-box;
+    color: rgb(36, 39, 44);
+    cursor: default;
+    display: block;
+    font-family: roboto, sans-serif, Arial;
+    font-size: 13px;
+    font-weight: 400;
+    height: 190px;
+    left: 25px;
+    line-height: 19.5px;
+    position: absolute;
+    top: 50px;
+    width: 2px;
+}
+
+.mainDiv .challanDiv .btn {
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #f75d34;
+    display: flex;
+}
+
+.star {
+    color: #ffa236;
+}
+
+.fontDetail {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.reviews {
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.fontColor {
+    color: rgb(144, 144, 146);
+}
+
+
+.carSize {
+    height: 150px;
+    width: 240px;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+
+.label {
+    border-radius: 4px;
+    padding: 4px 6px;
+    font-size: 8px;
+    font-weight: 500;
+    background-color: #ffa236;
+    display: inline-block;
+}
+
+Accordion AccordionItem AccordionHeader {
+    font-weight: 300;
+}
+
+.challanCheckBtn {
+    color: white !important;
+    background-color: #F75D34 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 8px 8px 0px rgba(247, 93, 52, .2);
+    font-size: 14px;
+    height: 44px;
+}
+
+.avatar {
+    height: 28px;
+    background-color: #e3f4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 8px;
+    width: 100%;
+}
+
+/* .challanCheck {
+    position: fixed;
+    top: 50px;
+    right: 120px;
+    z-index: 20;
+
+} */
+
+.btnBg {
+    background-color: white !important;
+}
+
+.accordion:hover {
+    background-color: none !important;
+}
+
+.linkBtn{
+    text-decoration: none !important;
+    color: #f75d34 !important;
+
+}
